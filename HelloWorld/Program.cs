@@ -10,6 +10,9 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Press any key to start");
+            Console.ReadLine();
+            Console.WriteLine("Oh no! The program failed! \nTry to override the ADP array, maybe it will back\n up the redundant microchip!");
         }
     }
 }
