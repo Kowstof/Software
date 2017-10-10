@@ -13,6 +13,9 @@ namespace HelloWorld
             Console.WriteLine("Press any key to start");
             Console.ReadLine();
             Console.WriteLine("Oh no! The program failed! \nTry to override the ADP array, maybe it will back\n up the redundant microchip!");
+            Console.ReadLine();
+            Console.ReadLine();
+            Console.WriteLine("You found a secret ;)");
         }
     }
 }
