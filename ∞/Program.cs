@@ -10,10 +10,11 @@ namespace _
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Press enter to count with me!");
-            Console.ReadLine();
+            Console.WriteLine("How much do you want to count to?");
+            int count = int.Parse(Console.ReadLine());
+            Console.WriteLine("-------");
 
-            for (int i = 1; i < 11; i++)
+            for (int i = 1; i <= count; i++)
             {
                 Console.WriteLine(i);
             }
