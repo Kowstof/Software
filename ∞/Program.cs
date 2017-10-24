@@ -18,7 +18,18 @@ namespace _
             {
                 Console.WriteLine(i);
             }
+            Console.WriteLine("-------");
+            Console.WriteLine();
 
+            Console.WriteLine("That was fun! Let's do it again! How much do you want to count to now?");
+            int num = int.Parse(Console.ReadLine());
+            Console.WriteLine("-------");
+            int counter = 1;
+            while (counter <= num)
+            {
+                Console.WriteLine(counter);
+                counter++;
+            }
             Console.ReadLine();
         }
     }
