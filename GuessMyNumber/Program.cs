@@ -44,6 +44,7 @@ namespace GuessMyNumber
                 else
                 {
                     Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine();
                     Console.WriteLine("                                   .''.");
                     Console.WriteLine("       .''.      .        *''*    :_\\/_:     . ");
@@ -53,7 +54,8 @@ namespace GuessMyNumber
                     Console.WriteLine(" : /\\ : :::::     *_\\/_*     -= o =-  /)\\    '  *");
                     Console.WriteLine("  '..'  ':::'     * /\\ *     .'/.\'.   '");
                     Console.WriteLine("                   *..*         :");
-                    Console.WriteLine("---------------------------------------------------------");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine("--------------------------------------------------------");
                     Console.WriteLine($"                 It is {number} indeed!");
                     Console.WriteLine($"                    Tries: {count}");
                     Console.ReadKey();
