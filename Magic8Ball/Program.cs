@@ -30,7 +30,9 @@ namespace Magic8Ball
 
             string[] thinking = {"thinking about it",
                                  "summoning mysterious powers beyond your understanding",
-                                 "asking a friend"};
+                                 "asking a friend",
+                                 "searching Wikipedia",
+                                 "thinking hard"};
 
             Console.WriteLine("Welcome! Ask me a question that can be answered by either 'Yes' or 'No'.");
             Console.WriteLine("Type 'exit' to leave me.");

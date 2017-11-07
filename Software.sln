@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7 - AreaCalculator", "7 - A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 - Magic8Ball", "Magic8Ball\11 - Magic8Ball.csproj", "{F21A41EB-FFFE-49D9-ABC5-CED272532858}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 - InsultGenerator", "12 - InsultGenerator\12 - InsultGenerator.csproj", "{AC48444C-BBA2-4BA7-AF7E-0C5A775ED1E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{F21A41EB-FFFE-49D9-ABC5-CED272532858}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F21A41EB-FFFE-49D9-ABC5-CED272532858}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F21A41EB-FFFE-49D9-ABC5-CED272532858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC48444C-BBA2-4BA7-AF7E-0C5A775ED1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC48444C-BBA2-4BA7-AF7E-0C5A775ED1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC48444C-BBA2-4BA7-AF7E-0C5A775ED1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC48444C-BBA2-4BA7-AF7E-0C5A775ED1E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
