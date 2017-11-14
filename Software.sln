@@ -1,21 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 - HelloWorld", "HelloWorld\1 - HelloWorld.csproj", "{01315688-5D28-495E-8AD6-2B43A349117B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 - HelloWorld", "HelloWorld\01 - HelloWorld.csproj", "{01315688-5D28-495E-8AD6-2B43A349117B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 - WelcomeMessage", "WelcomeMessage\2 - WelcomeMessage.csproj", "{38F8DC45-5D19-4556-BE49-CEA79CD9EBB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 - WelcomeMessage", "WelcomeMessage\02 - WelcomeMessage.csproj", "{38F8DC45-5D19-4556-BE49-CEA79CD9EBB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 - NumberFun", "NumberFun\3 - NumberFun.csproj", "{CF4928C3-DB2B-4057-BAD2-6FA42C5AD829}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 - NumberFun", "NumberFun\03 - NumberFun.csproj", "{CF4928C3-DB2B-4057-BAD2-6FA42C5AD829}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4 - PickADoor", "PickADoor\4 - PickADoor.csproj", "{A9AE9AEC-4BDF-4D05-A795-95C0680EF498}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 - PickADoor", "PickADoor\04 - PickADoor.csproj", "{A9AE9AEC-4BDF-4D05-A795-95C0680EF498}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5 - ∞", "∞\5 - ∞.csproj", "{E905053D-85A5-4CAB-BCC3-046CA8A74674}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 - ∞", "∞\06 - ∞.csproj", "{E905053D-85A5-4CAB-BCC3-046CA8A74674}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6 - GuessMyNumber", "GuessMyNumber\6 - GuessMyNumber.csproj", "{6765FEF0-1EA9-4006-B698-99028FB9930D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 - GuessMyNumber", "GuessMyNumber\07 - GuessMyNumber.csproj", "{6765FEF0-1EA9-4006-B698-99028FB9930D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7 - AreaCalculator", "7 - AreaCalculator\7 - AreaCalculator.csproj", "{F46553DA-3783-4AC8-AB67-5C8795F0E4C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 - AreaCalculator", "7 - AreaCalculator\08 - AreaCalculator.csproj", "{F46553DA-3783-4AC8-AB67-5C8795F0E4C3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 - Magic8Ball", "Magic8Ball\11 - Magic8Ball.csproj", "{F21A41EB-FFFE-49D9-ABC5-CED272532858}"
 EndProject
