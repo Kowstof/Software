@@ -19,8 +19,10 @@ namespace _13___BabyBlackjack
             Console.Clear();
             float betAmount = MakeBet(ref bal);
             Random rnd = new Random();
+            Console.WriteLine("---------------------------------------------");
             int playerTotal = DealCards(rnd, "You");
             int dealerTotal = DealCards(rnd, "The dealer");
+            Console.WriteLine("---------------------------------------------");
             bool playerWins = determineWinner(playerTotal, dealerTotal);
             PayOut(playerWins, betAmount, ref bal);
             Menu(ref bal);
@@ -28,7 +30,13 @@ namespace _13___BabyBlackjack
 
         private static void Menu(ref float bal)
         {
-            Console.Write("Would you like another game? y/n: ");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("Dealer: ");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Would you like another game? y/n: ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("You: ");
+            Console.ForegroundColor = ConsoleColor.White;
             if (Console.ReadLine() == "y")
             {
                 playGame(ref bal);
@@ -47,16 +55,25 @@ namespace _13___BabyBlackjack
         {
             if (player > dealer)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write("Dealer: ");
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("You got me this time...");
                 return true;
             }
             else if (dealer > player)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write("Dealer: ");
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("Hah! You can't defeat me!");
                 return false;
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write("Dealer: ");
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("We draw. I win");
                 return false;
             }
@@ -67,7 +84,19 @@ namespace _13___BabyBlackjack
             int card1 = rnd.Next(11);
             int card2 = rnd.Next(11);
             int total = card1 + card2;
-            Console.WriteLine($"{player} drew {card1} and {card2} for a total of {total}");
+            Console.Write($"{player} drew ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write(card1);
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write(" and ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write(card2);
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write(" for a total of ");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(total);
+            Console.ForegroundColor = ConsoleColor.White;
+
             return total;
         }
 
@@ -76,7 +105,14 @@ namespace _13___BabyBlackjack
             float betAmount = 0;
             bool validBet = false;
 
-            Console.WriteLine($"Enter your bet. You have ${bal}");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("Dealer: ");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine($"How much you wanna bet? You're sitting on ${bal}");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("You: ");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("$");
 
             while (validBet != true)
             {
@@ -84,12 +120,38 @@ namespace _13___BabyBlackjack
 
                 if (betAmount > bal)
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write("Dealer: ");
+                    Console.ForegroundColor = ConsoleColor.White;
                     Console.WriteLine("Sorry, but your a** is too broke for that. Go a bit lower.");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.Write("You: ");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.Write("$");
                     validBet = false;
                 }
                 else if (betAmount < 0)
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write("Dealer: ");
+                    Console.ForegroundColor = ConsoleColor.White;
                     Console.WriteLine("Get outta here with your fancy negatives! Proper bet please.");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.Write("You: ");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.Write("$");
+                    validBet = false;
+                }
+                else if (betAmount == 0)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write("Dealer: ");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine("You need to bet SOMETHING, y'know...");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.Write("You: ");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.Write("$");
                     validBet = false;
                 }
             }
