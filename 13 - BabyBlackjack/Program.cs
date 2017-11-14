@@ -22,6 +22,10 @@ namespace _13___BabyBlackjack
             Console.WriteLine("---------------------------------------------");
             int playerTotal = DealCards(rnd, "You");
             int dealerTotal = DealCards(rnd, "The dealer");
+            Console.Write($"You now have ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine($"${bal}");
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("---------------------------------------------");
             bool playerWins = determineWinner(playerTotal, dealerTotal);
             PayOut(playerWins, betAmount, ref bal);
@@ -34,7 +38,7 @@ namespace _13___BabyBlackjack
             Console.Write("Dealer: ");
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Would you like another game? y/n: ");
-            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.Write("You: ");
             Console.ForegroundColor = ConsoleColor.White;
             if (Console.ReadLine() == "y")
@@ -108,8 +112,10 @@ namespace _13___BabyBlackjack
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("Dealer: ");
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine($"How much you wanna bet? You're sitting on ${bal}");
+            Console.Write("How much you wanna bet? You're sitting on ");
             Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine($"${bal}");
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.Write("You: ");
             Console.ForegroundColor = ConsoleColor.White;
             Console.Write("$");
@@ -124,7 +130,7 @@ namespace _13___BabyBlackjack
                     Console.Write("Dealer: ");
                     Console.ForegroundColor = ConsoleColor.White;
                     Console.WriteLine("Sorry, but your a** is too broke for that. Go a bit lower.");
-                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.ForegroundColor = ConsoleColor.Blue;
                     Console.Write("You: ");
                     Console.ForegroundColor = ConsoleColor.White;
                     Console.Write("$");
@@ -136,7 +142,7 @@ namespace _13___BabyBlackjack
                     Console.Write("Dealer: ");
                     Console.ForegroundColor = ConsoleColor.White;
                     Console.WriteLine("Get outta here with your fancy negatives! Proper bet please.");
-                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.ForegroundColor = ConsoleColor.Blue;
                     Console.Write("You: ");
                     Console.ForegroundColor = ConsoleColor.White;
                     Console.Write("$");
@@ -148,7 +154,7 @@ namespace _13___BabyBlackjack
                     Console.Write("Dealer: ");
                     Console.ForegroundColor = ConsoleColor.White;
                     Console.WriteLine("You need to bet SOMETHING, y'know...");
-                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.ForegroundColor = ConsoleColor.Blue;
                     Console.Write("You: ");
                     Console.ForegroundColor = ConsoleColor.White;
                     Console.Write("$");
