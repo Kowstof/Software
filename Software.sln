@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 - AgeProgram", "05 - Age
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13 - BabyBlackjack", "13 - BabyBlackjack\13 - BabyBlackjack.csproj", "{7FB5122F-D8AF-4F7A-ADFF-0ABBE2A421A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 - FizzBuzz", "FizzBuzz\09 - FizzBuzz.csproj", "{0E259C57-4364-4CCA-8AEC-22D57D5A8D61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 - RockPaperScissors", "RockPaperScissors\10 - RockPaperScissors.csproj", "{C069AE5E-8832-42CB-9150-3090C2800019}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{7FB5122F-D8AF-4F7A-ADFF-0ABBE2A421A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FB5122F-D8AF-4F7A-ADFF-0ABBE2A421A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FB5122F-D8AF-4F7A-ADFF-0ABBE2A421A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E259C57-4364-4CCA-8AEC-22D57D5A8D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E259C57-4364-4CCA-8AEC-22D57D5A8D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E259C57-4364-4CCA-8AEC-22D57D5A8D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E259C57-4364-4CCA-8AEC-22D57D5A8D61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C069AE5E-8832-42CB-9150-3090C2800019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C069AE5E-8832-42CB-9150-3090C2800019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C069AE5E-8832-42CB-9150-3090C2800019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C069AE5E-8832-42CB-9150-3090C2800019}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
