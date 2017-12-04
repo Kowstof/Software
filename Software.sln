@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 - HelloWorld", "HelloWorld\01 - HelloWorld.csproj", "{01315688-5D28-495E-8AD6-2B43A349117B}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 - FizzBuzz", "FizzBuzz\09 - FizzBuzz.csproj", "{0E259C57-4364-4CCA-8AEC-22D57D5A8D61}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 - RockPaperScissors", "RockPaperScissors\10 - RockPaperScissors.csproj", "{C069AE5E-8832-42CB-9150-3090C2800019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14 - Classes", "14 - Classes\14 - Classes.csproj", "{8048AEAB-1A52-4C78-9E58-371A7271F408}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{C069AE5E-8832-42CB-9150-3090C2800019}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C069AE5E-8832-42CB-9150-3090C2800019}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C069AE5E-8832-42CB-9150-3090C2800019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8048AEAB-1A52-4C78-9E58-371A7271F408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8048AEAB-1A52-4C78-9E58-371A7271F408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8048AEAB-1A52-4C78-9E58-371A7271F408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8048AEAB-1A52-4C78-9E58-371A7271F408}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
